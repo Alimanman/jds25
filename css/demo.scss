@@ -418,6 +418,9 @@ button.pr{
     display: none !important;
     opacity: 0 !important;
 }
+.wow{
+    visibility: hidden;
+}
 @media screen and (max-width: 798px) {
     ul.demo1-1{
         li{
