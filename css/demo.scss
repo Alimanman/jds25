@@ -7,7 +7,8 @@
 .demo7-1,
 .demo8-1,
 .demo9-1,
-.demo10-1{
+.demo10-1,
+.demo11-1{
     *{
         margin: 0;
         padding: 0;
@@ -321,6 +322,42 @@
         margin-right: 16px;
         margin-bottom: 16px;
         padding: 8px 16px;
+    }
+}
+.demo11-1{
+    ul{
+        padding-bottom: 50px;
+    }
+    [data-jds25=jdsShowMoreClick]{
+        color: #fff;
+        background: #1677ff;
+        padding: 8px 0px;
+    }
+}
+.demo11-2{
+    ul{
+        padding-bottom: 50px;
+    }
+    [data-jds25=jdsShowMore]{
+        height: 500px;
+        [data-jds25=jdsShowMoreClick]{
+            color: #fff;
+            background: #66B821;
+            padding: 8px 0px;
+            width: 100%;
+            margin-left: -50%;
+            bottom: 0;
+            &::after{
+                content: 'もっと見る';
+            }
+        }
+        &[data-jds25-hide=false]{
+            [data-jds25=jdsShowMoreClick]{
+                &::after{
+                    content: '閉じる';
+                }  
+            }
+        }
     }
 }
 button.pr{
