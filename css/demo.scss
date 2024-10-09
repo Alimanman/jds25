@@ -302,6 +302,7 @@
 .demo8-2{
     .swiper-container{
         width: calc(100%);
+        margin-bottom: 8px;
         .swiper-slide{
             opacity: .3;
             &.swiper-slide-active{
@@ -398,6 +399,9 @@
             }
         }
     }
+}
+.demo12-1{
+    
 }
 button.pr{
     margin: 0 auto;
