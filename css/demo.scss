@@ -553,6 +553,35 @@ button.pr{
     width: 100%;
     height: 270px;
 }
+.vr{
+    width: 100%;
+    height: 80vh;
+    a-scene{
+        width: 100%;
+        height: 30vh;
+    }
+}
+html.a-fullscreen .vr .a-canvas{
+    position: absolute !important;
+}
+.main-demo{
+    position: relative;
+    margin-bottom: 64px;
+    margin-bottom: 0;
+    padding: 32px;
+    height: 2000px;
+    border: 1px solid #ccc;
+    background: url('https://test.point.rakuten.co.jp/doc/_tools/xps_modules/modal/img/modal_dummy-half.png') center center / 25% ;
+}
+[data-jds25=jdsSimplebar]{
+    margin-bottom: 64px;
+    height: 360px;
+    font-weight: 900;
+    color: #00B900;
+    .simplebar-scrollbar::before {
+        background-color: #00B900;;
+    }
+}
 @media screen and (max-width: 798px) {
     ul.demo1-1{
         li{
